@@ -6,10 +6,12 @@
 body {
     margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #870202;
-    background: rgb(252, 251, 251);
+    color: white;
+    background: rgb(25, 25, 25);
 }
 
+nav a { color: rgb(255, 100, 0);  }
+    
 img {
     max-width: 100%;
 }
@@ -20,7 +22,7 @@ header {
     max-width: 75rem;
     margin: 0 auto;
     padding: 3rem 2rem;
-    border-bottom: 4px solid rgb(196, 42, 7);
+    border-bottom: 4px solid rgb(255, 100,0);
 }
 
 h1 {
@@ -30,29 +32,28 @@ h1 {
 
 .auto {
     font-size: 1.2rem;
-    color: brown;
 }
 
 /* main (contenido principal) */
 
 main {
-    max-width: 75rem;
+    max-width: 50rem;
     margin: 0 auto;
     padding: 3rem 2rem;
 }
 
 div {
-    margin: 0 0 2rem;
+    margin: 2rem;
     padding: 1rem;
-    background: white;
-    border: 1px solid brown;
+    color: rgb (255,100,0);
 }
 
 section {
     padding: 1.5rem 2rem;
     margin-bottom: 1.5rem;
-    background: white;
-    border: 1px solid brown;
+    background: rgb(255, 100, 0);
+    color: white;
+    border: 1px solid white;
 }
 
 h2 {
@@ -61,14 +62,15 @@ h2 {
 }
 
 .destacado {
-    background: rgb(241, 241, 241);
+    background: rgb(50,50,50);
     padding: 1rem;
 }
 
 .button {
     margin-top: 1;
     padding: 0.75rem 1.5rem;
-    background: brown;
+    background: red;
+    border: 1px solid white;
     color: white;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
@@ -78,4 +80,5 @@ footer {
     max-width: 75rem;
     margin: 0 auto;
     padding: 3rem 2rem;
+    color: rgb (255,100,0);
 }
